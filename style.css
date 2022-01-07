@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* .background-img
+  max-width: 100%;
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 0px 50px 0px 0px;
+  display: inline-block;*/
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: space-around;
+  padding: 48px;
+  justify-content: flex-end;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #828282;
+  font-size: 16px;
+}
+
+.cabecalho-menu-lines {
+  position: absolute;
+  width: 25px;
+  margin-left: -98px;
+  float: left;
+  left: 70%;
+  display: flex;
+  flex-direction: row;
+
+  float: right;
+  margin-right: 15px;
+}
+
+.cabecalho-menu-item:hover {
+  color: rgb(175, 128, 223);
+}
+
+body {
+  max-width: 1200;
+  background-image: url(./assets/background-img5.png);
+  background-size: 840px;
+  background-repeat: no-repeat;
+  font-size: 100%;
+}
+
+.search-box {
+  width: 460px;
+  position: absolute;
+  margin-top: -400px;
+  left: 63%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  height: 50px;
+  padding: 4px;
+  border-bottom: 1px solid #828282;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.search-txt {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search-img {
+  width: 15px;
+  float: right;
+  margin-right: 20px;
+}
+
+.search-btn {
+  color: #828282;
+  float: right;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 64px;
+  margin-top: 24px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: white;
+}
+
+.conteudo-principal-escrito-p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: -10px;
+}
+
+.conteudo-principal-escrito-botao {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background-color: #a589e4;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.138);
+  border-radius: 10px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgb(133, 95, 170);
+}
+
+.discover-section-title {
+  float: right;
+  margin-right: 30%;
+  margin-top: -320px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  color: rgb(175, 128, 223);
+  font-size: 1.5rem;
+}
+
+.botao-discover-item {
+  justify-content: space-between;
+  display: flex;
+  gap: 21px;
+  float: right;
+  transform: translate(-26%, -778%);
+  font-weight: 700;
+  color: #828282;
+  font-weight: 700;
+  color: #828282;
+  font-size: 0.9rem;
+}
+
+.botao-discover-item:hover {
+  color: rgb(133, 95, 170);
+  font-weight: 700;
+}
+
+.galeria-box-imagem1 {
+  transform: translate(45%);
+  margin-top: -240px;
+  display: block;
+  width: 230px;
+  height: 350px;
+  object-fit: cover;
+  float: right;
+  border-radius: 5px;
+  position: relative;
+}
+
+.galeria-box-imagem2 {
+  transform: translate(249%);
+  margin-top: -240px;
+  display: block;
+  width: 230px;
+  height: 350px;
+  object-fit: cover;
+  float: right;
+  border-radius: 5px;
+  position: relative;
+}
+
+/*.galeria-box-imagem3 {
+  transform: translate(449%);
+  margin-top: -240px;
+  display: block;
+  width: 200px;
+  height: 350px;
+  object-fit: cover;
+  float: right;
+  border-radius: 5px;
+  position: relative;
+} */
